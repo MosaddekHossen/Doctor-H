@@ -1903,6 +1903,16 @@ video {
      object-fit: scale-down;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1957,6 +1967,10 @@ video {
 
 .align-super {
   vertical-align: super;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
 }
 
 .font-bold {
@@ -2038,6 +2052,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-\[\#F7A582\] {
+  --tw-text-opacity: 1;
+  color: rgb(247 165 130 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2414,6 +2433,10 @@ video {
   margin: 0;
 }
 
+.html {
+  font-size: 62.5%;
+}
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -2557,7 +2580,7 @@ video {
     position: absolute;
     top: 0px;
     /* right: 15px; */
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -2577,11 +2600,11 @@ video {
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .navbar-container input[type="checkbox"]:checked ~ .logo {
     display: none;
   }
-}
+} */
 
 @media (min-width: 640px) {
   .sm\:container {

@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+.html {
+  font-size: 62.5%;
+}
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
@@ -152,7 +156,7 @@
     position: absolute;
     top: 0px;
     /* right: 15px; */
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -172,8 +176,8 @@
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .navbar-container input[type="checkbox"]:checked ~ .logo {
     display: none;
   }
-}
+} */
