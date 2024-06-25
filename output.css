@@ -1986,6 +1986,10 @@ video {
   font-size: 75px;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2693,6 +2697,20 @@ video {
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-\[75px\] {
+    font-size: 75px;
   }
 }
 
