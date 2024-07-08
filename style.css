@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,8 +22,7 @@
 }
 
 .container {
-  max-width: 1280px;
-  width: 90%;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -58,9 +59,10 @@
 }
 
 .navbar a {
-  color: #fff;
+  color: #f3f3f3;
   text-decoration: none;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   transition: color 0.3s ease-in-out;
 }
 
@@ -132,6 +134,8 @@
   }
 
   .navbar .menu-items {
+    position: relative;
+    z-index: 20;
     padding-top: 100px;
     background: #07332f;
     height: 100vh;
@@ -139,7 +143,7 @@
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
-    margin-left: -40px;
+    margin-left: -46px;
     padding-left: 40px;
     transition: transform 0.5s ease-in-out;
     /* box-shadow: 5px 0px 10px 0px #aaa; */
@@ -183,3 +187,7 @@
 } */
 
 /* Start navbar part */
+
+* li {
+  text-decoration: none;
+}
